@@ -1,0 +1,94 @@
+#start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    box-shadow: #3208519b;
+
+}
+
+#start-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(61, 13, 115);
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; 
+}
+
+.menu-container {
+    background-image: url('./img/fundo.png'); 
+    background-size: cover;
+    background-position: center;
+    width: 920px;
+    height: 600px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(104, 4, 244);
+    padding: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(85, 11, 135, 0.7);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vh;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(85, 11, 135, 0.7);
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+p {
+    margin-top: 5px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+
+.button {
+    background-color: #380267;
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    margin: 5px 0; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em; 
+    transition: background-color 0.3s, transform 0.2s; 
+    width: 100%; 
+
+a {
+    text-decoration: none;
+    color: white; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+}
