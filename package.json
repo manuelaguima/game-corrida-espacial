@@ -1,0 +1,19 @@
+{
+  "name": "game_corrida_espacial",
+  "version": "1.0.0",
+  "description": "javaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "javaScript"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelaguima/game-corrida-espacial.git"
+  },
+  "author": "Manuela Guimarães",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manuelaguima/game-corrida-espacial/issues"
+  },
+  "homepage": "https://github.com/manuelaguima/game-corrida-espacial#readme"
+}
